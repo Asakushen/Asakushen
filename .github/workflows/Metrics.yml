@@ -1,10 +1,9 @@
 name: Metrics
 on:
-  # Schedule daily updates
-  schedule: [{cron: "0 0 * * *"}]
+  # Schedule updates every 3 days to reduce frequency
+  schedule: [{cron: "0 0 */3 * *"}]
   workflow_dispatch:
-  # (optional) Run workflow when pushing on master/main
-  push: {branches: ["master", "main"]}
+  # Only run on manual trigger or schedule, not on every push
 jobs:
   github-metrics:
     runs-on: ubuntu-latest

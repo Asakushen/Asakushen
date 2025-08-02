@@ -20,7 +20,7 @@
 
 <div align="center">
   
-[![动态文字](https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=28&duration=3000&pause=1000&color=36BCF7&center=true&vCenter=true&width=800&height=100&lines=👋+你好，我是+Asakushen;🚀+欢迎来到我的个人主页!;💻+3年+编程学习经验;🎓+计算机科学专业在读;🌱+永远在学习新技术;✨+让我们一起创造美好的代码世界!)](https://git.io/typing-svg)
+[![动态文字](https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=28&duration=3000&pause=1000&color=36BCF7&center=true&vCenter=true&width=800&height=100&lines=👋+你好，我是+Asakushen;🚀+欢迎来到我的个人主页!;💻+5年+编程学习经验;🎓+计算机科学专业在读;🌱+永远在学习新技术;✨+让我们一起创造美好的代码世界!)](https://git.io/typing-svg)
 
 </div>
 
@@ -139,20 +139,24 @@
 <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); gap: 20px; margin: 20px 0;">
 
 <div style="background: linear-gradient(135deg, #667eea 0%, #764ba2 100%); padding: 20px; border-radius: 15px; color: white;">
-  <h4>🚀 个人主页项目</h4>
-  <p>一个功能丰富的GitHub个人主页，包含动态效果和统计图表</p>
-  <div>
-    <img src="https://img.shields.io/badge/Python-3776AB?style=flat&logo=python&logoColor=white" />
-    <img src="https://img.shields.io/badge/HTML-E34F26?style=flat&logo=html5&logoColor=white" />
+  <h4>🌐 个人博客</h4>
+  <p>我的个人技术博客，分享编程学习心得和技术文章</p>
+  <a href="https://www.chillg.de" style="color: #fff; text-decoration: none;">
+    <strong>🔗 访问博客: www.chillg.de</strong>
+  </a>
+  <div style="margin-top: 10px;">
+    <img src="https://img.shields.io/badge/Blog-FF6B6B?style=flat&logo=blogger&logoColor=white" />
+    <img src="https://img.shields.io/badge/Tech-4ECDC4?style=flat&logo=dev.to&logoColor=white" />
   </div>
 </div>
 
 <div style="background: linear-gradient(135deg, #f093fb 0%, #f5576c 100%); padding: 20px; border-radius: 15px; color: white;">
-  <h4>💻 学习项目集合</h4>
-  <p>记录编程学习过程中的各种练习和小项目</p>
+  <h4>🚀 GitHub 个人主页</h4>
+  <p>一个功能丰富的GitHub个人主页，包含动态效果和统计图表</p>
   <div>
-    <img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=flat&logo=javascript&logoColor=black" />
-    <img src="https://img.shields.io/badge/C++-00599C?style=flat&logo=cplusplus&logoColor=white" />
+    <img src="https://img.shields.io/badge/Python-3776AB?style=flat&logo=python&logoColor=white" />
+    <img src="https://img.shields.io/badge/HTML-E34F26?style=flat&logo=html5&logoColor=white" />
+    <img src="https://img.shields.io/badge/SVG-FFB13B?style=flat&logo=svg&logoColor=white" />
   </div>
 </div>
 
@@ -180,15 +184,17 @@
 
 <div style="display: flex; justify-content: center; gap: 20px; margin: 20px 0;">
 
-[![Gmail](https://img.shields.io/badge/Gmail-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:your-email@gmail.com)
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://linkedin.com/in/yourprofile)
-[![Twitter](https://img.shields.io/badge/Twitter-1DA1F2?style=for-the-badge&logo=twitter&logoColor=white)](https://twitter.com/yourhandle)
+[![Email](https://img.shields.io/badge/Email-hi@chillg.de-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:hi@chillg.de)
 
 </div>
 
 ### 💬 想要合作？
 
-如果你想为我的任何仓库做贡献，欢迎提交 PR、Issues 或发邮件给我。如果你想和我聊聊想法和建议，可以预约时间 - 但请确保描述清楚议程。
+如果你想为我的任何仓库做贡献，欢迎提交 PR、Issues 或发邮件给我。如果你想和我聊聊想法和建议，可以发邮件到 **hi@chillg.de** - 但请确保描述清楚议程。
+
+### 🌐 更多内容
+
+想了解更多技术分享和学习心得，欢迎访问我的个人博客：**[www.chillg.de](https://www.chillg.de)**
 
 </div>
 
