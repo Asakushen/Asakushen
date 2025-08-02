@@ -1,0 +1,69 @@
+<svg width="800" height="200" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="grad1" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#667eea;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#764ba2;stop-opacity:1" />
+    </linearGradient>
+    <linearGradient id="grad2" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#f093fb;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#f5576c;stop-opacity:1" />
+    </linearGradient>
+    <linearGradient id="grad3" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#4facfe;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#00f2fe;stop-opacity:1" />
+    </linearGradient>
+  </defs>
+  
+  <!-- 浮动的代码图标 -->
+  <g>
+    <circle cx="100" cy="100" r="30" fill="url(#grad1)" opacity="0.8">
+      <animateTransform attributeName="transform" type="translate" 
+        values="0,0; 0,-20; 0,0" dur="3s" repeatCount="indefinite"/>
+      <animate attributeName="opacity" values="0.8;1;0.8" dur="3s" repeatCount="indefinite"/>
+    </circle>
+    <text x="100" y="108" text-anchor="middle" fill="white" font-size="20" font-family="Arial">💻</text>
+  </g>
+  
+  <!-- 浮动的火箭图标 -->
+  <g>
+    <circle cx="300" cy="100" r="30" fill="url(#grad2)" opacity="0.8">
+      <animateTransform attributeName="transform" type="translate" 
+        values="0,0; 0,-15; 0,0" dur="2.5s" repeatCount="indefinite"/>
+      <animate attributeName="opacity" values="0.8;1;0.8" dur="2.5s" repeatCount="indefinite"/>
+    </circle>
+    <text x="300" y="108" text-anchor="middle" fill="white" font-size="20" font-family="Arial">🚀</text>
+  </g>
+  
+  <!-- 浮动的星星图标 -->
+  <g>
+    <circle cx="500" cy="100" r="30" fill="url(#grad3)" opacity="0.8">
+      <animateTransform attributeName="transform" type="translate" 
+        values="0,0; 0,-25; 0,0" dur="4s" repeatCount="indefinite"/>
+      <animate attributeName="opacity" values="0.8;1;0.8" dur="4s" repeatCount="indefinite"/>
+    </circle>
+    <text x="500" y="108" text-anchor="middle" fill="white" font-size="20" font-family="Arial">⭐</text>
+  </g>
+  
+  <!-- 浮动的齿轮图标 -->
+  <g>
+    <circle cx="700" cy="100" r="30" fill="url(#grad1)" opacity="0.8">
+      <animateTransform attributeName="transform" type="translate" 
+        values="0,0; 0,-18; 0,0" dur="3.5s" repeatCount="indefinite"/>
+      <animate attributeName="opacity" values="0.8;1;0.8" dur="3.5s" repeatCount="indefinite"/>
+    </circle>
+    <text x="700" y="108" text-anchor="middle" fill="white" font-size="20" font-family="Arial">⚙️</text>
+  </g>
+  
+  <!-- 背景粒子效果 -->
+  <g opacity="0.3">
+    <circle cx="150" cy="50" r="3" fill="#667eea">
+      <animate attributeName="cy" values="50;150;50" dur="6s" repeatCount="indefinite"/>
+    </circle>
+    <circle cx="350" cy="150" r="2" fill="#f093fb">
+      <animate attributeName="cy" values="150;50;150" dur="5s" repeatCount="indefinite"/>
+    </circle>
+    <circle cx="550" cy="75" r="4" fill="#4facfe">
+      <animate attributeName="cy" values="75;125;75" dur="7s" repeatCount="indefinite"/>
+    </circle>
+  </g>
+</svg>

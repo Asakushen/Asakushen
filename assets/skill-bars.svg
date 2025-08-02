@@ -1,0 +1,70 @@
+<svg width="600" height="300" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="python-grad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" style="stop-color:#3776ab;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#ffd43b;stop-opacity:1" />
+    </linearGradient>
+    <linearGradient id="js-grad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" style="stop-color:#f7df1e;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#f39c12;stop-opacity:1" />
+    </linearGradient>
+    <linearGradient id="cpp-grad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" style="stop-color:#00599c;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#004482;stop-opacity:1" />
+    </linearGradient>
+    <linearGradient id="html-grad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" style="stop-color:#e34f26;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#f06529;stop-opacity:1" />
+    </linearGradient>
+  </defs>
+  
+  <style>
+    .skill-text { font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; font-size: 14px; fill: #333; }
+    .percentage { font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; font-size: 12px; fill: #666; }
+  </style>
+  
+  <!-- Python 技能条 -->
+  <g>
+    <text x="20" y="35" class="skill-text">Python</text>
+    <text x="520" y="35" class="percentage">85%</text>
+    <rect x="20" y="45" width="500" height="20" fill="#f0f0f0" rx="10"/>
+    <rect x="20" y="45" width="0" height="20" fill="url(#python-grad)" rx="10">
+      <animate attributeName="width" from="0" to="425" dur="2s" begin="0.5s" fill="freeze"/>
+    </rect>
+  </g>
+  
+  <!-- JavaScript 技能条 -->
+  <g>
+    <text x="20" y="95" class="skill-text">JavaScript</text>
+    <text x="520" y="95" class="percentage">75%</text>
+    <rect x="20" y="105" width="500" height="20" fill="#f0f0f0" rx="10"/>
+    <rect x="20" y="105" width="0" height="20" fill="url(#js-grad)" rx="10">
+      <animate attributeName="width" from="0" to="375" dur="2s" begin="1s" fill="freeze"/>
+    </rect>
+  </g>
+  
+  <!-- C++ 技能条 -->
+  <g>
+    <text x="20" y="155" class="skill-text">C++</text>
+    <text x="520" y="155" class="percentage">70%</text>
+    <rect x="20" y="165" width="500" height="20" fill="#f0f0f0" rx="10"/>
+    <rect x="20" y="165" width="0" height="20" fill="url(#cpp-grad)" rx="10">
+      <animate attributeName="width" from="0" to="350" dur="2s" begin="1.5s" fill="freeze"/>
+    </rect>
+  </g>
+  
+  <!-- HTML/CSS 技能条 -->
+  <g>
+    <text x="20" y="215" class="skill-text">HTML/CSS</text>
+    <text x="520" y="215" class="percentage">80%</text>
+    <rect x="20" y="225" width="500" height="20" fill="#f0f0f0" rx="10"/>
+    <rect x="20" y="225" width="0" height="20" fill="url(#html-grad)" rx="10">
+      <animate attributeName="width" from="0" to="400" dur="2s" begin="2s" fill="freeze"/>
+    </rect>
+  </g>
+  
+  <!-- 装饰性元素 -->
+  <circle cx="580" cy="150" r="3" fill="#667eea" opacity="0">
+    <animate attributeName="opacity" values="0;1;0" dur="2s" begin="3s" repeatCount="indefinite"/>
+  </circle>
+</svg>

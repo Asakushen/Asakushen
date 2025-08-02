@@ -1,34 +1,114 @@
-<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" style="z-index:1;position:relative" width="854" height="200" viewBox="0 0 854 200">
-    <style>
-                .text {
-            font-size: 70px;
-            font-weight: 700;
-            font-family: -apple-system,BlinkMacSystemFont,Segoe UI,Helvetica,Arial,sans-serif,Apple Color Emoji,Segoe UI Emoji;
-        }
-        .desc {
-            font-size: 20px;
-            font-weight: 500;
-            font-family: -apple-system,BlinkMacSystemFont,Segoe UI,Helvetica,Arial,sans-serif,Apple Color Emoji,Segoe UI Emoji;
-        }
-
-            </style>
-    <g transform="translate(427, 100) scale(1, 1) translate(-427, -100)">
-
-                    <defs>
-        <linearGradient id="linear" x1="0%" y1="0%" x2="100%" y2="0%">
-            <stop offset="0%" stop-color="#B993D6"/><stop offset="100%" stop-color="#8CA6DB"/>
-        </linearGradient>
-    </defs>
-
-                    <path d="" fill="url(#linear)" opacity="0.4" >
-    <animate attributeName="d" dur="20s" repeatCount="indefinite" keyTimes="0;0.333;0.667;1" calcmod="spline" keySplines="0.2 0 0.2 1;0.2 0 0.2 1;0.2 0 0.2 1" begin="0s" values="M0 0L 0 120Q 213.5 160 427 130T 854 155L 854 0 Z;M0 0L 0 145Q 213.5 160 427 140T 854 130L 854 0 Z;M0 0L 0 165Q 213.5 135 427 165T 854 130L 854 0 Z;M0 0L 0 120Q 213.5 160 427 130T 854 155L 854 0 Z"></animate>
-</path>
-<path d="" fill="url(#linear)" opacity="0.4" >
-    <animate attributeName="d" dur="20s" repeatCount="indefinite" keyTimes="0;0.333;0.667;1" calcmod="spline" keySplines="0.2 0 0.2 1;0.2 0 0.2 1;0.2 0 0.2 1" begin="-10s" values="M0 0L 0 135Q 213.5 180 427 150T 854 160L 854 0 Z;M0 0L 0 150Q 213.5 120 427 120T 854 140L 854 0 Z;M0 0L 0 145Q 213.5 125 427 150T 854 165L 854 0 Z;M0 0L 0 135Q 213.5 180 427 150T 854 160L 854 0 Z"></animate>
-</path>
-    </g>
-
-            <text text-anchor="middle" alignment-baseline="middle" x="50%" y="30%" class="text" style="fill:#f7f5f5;" stroke="#none" stroke-width="10" > Welcome to my profile!</text>
-
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="200" viewBox="0 0 1200 200">
+  <defs>
+    <linearGradient id="header-gradient" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" style="stop-color:#667eea;stop-opacity:0.8" />
+      <stop offset="25%" style="stop-color:#764ba2;stop-opacity:0.9" />
+      <stop offset="50%" style="stop-color:#f093fb;stop-opacity:0.8" />
+      <stop offset="75%" style="stop-color:#4facfe;stop-opacity:0.9" />
+      <stop offset="100%" style="stop-color:#667eea;stop-opacity:0.8" />
+    </linearGradient>
+    <linearGradient id="header-gradient2" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" style="stop-color:#ff6b6b;stop-opacity:0.6" />
+      <stop offset="50%" style="stop-color:#4ecdc4;stop-opacity:0.7" />
+      <stop offset="100%" style="stop-color:#45b7d1;stop-opacity:0.6" />
+    </linearGradient>
+    <linearGradient id="text-gradient" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" style="stop-color:#ffffff;stop-opacity:1" />
+      <stop offset="50%" style="stop-color:#f8f9fa;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#ffffff;stop-opacity:1" />
+    </linearGradient>
+    <filter id="text-glow">
+      <feGaussianBlur stdDeviation="3" result="coloredBlur"/>
+      <feMerge> 
+        <feMergeNode in="coloredBlur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+  </defs>
+  
+  <style>
+    .header-wave {
+      animation: headerWave 12s ease-in-out infinite;
+    }
+    
+    .header-wave2 {
+      animation: headerWave2 8s ease-in-out infinite reverse;
+    }
+    
+    .welcome-text {
+      font-size: 48px;
+      font-weight: 700;
+      font-family: 'Segoe UI', -apple-system, BlinkMacSystemFont, sans-serif;
+      text-anchor: middle;
+      alignment-baseline: middle;
+      filter: url(#text-glow);
+    }
+    
+    .subtitle {
+      font-size: 18px;
+      font-weight: 400;
+      font-family: 'Segoe UI', -apple-system, BlinkMacSystemFont, sans-serif;
+      text-anchor: middle;
+      alignment-baseline: middle;
+      opacity: 0.9;
+    }
+    
+    @keyframes headerWave {
+      0%, 100% { 
+        d: path("M0,200 C300,160 600,240 900,200 C1050,180 1150,220 1200,200 L1200,0 L0,0 Z");
+      }
+      50% { 
+        d: path("M0,200 C200,180 400,260 600,220 C800,180 1000,260 1200,220 L1200,0 L0,0 Z");
+      }
+    }
+    
+    @keyframes headerWave2 {
+      0%, 100% { 
+        d: path("M0,200 C150,140 450,280 600,200 C750,140 1050,280 1200,200 L1200,0 L0,0 Z");
+      }
+      50% { 
+        d: path("M0,200 C250,160 550,240 750,200 C950,160 1150,240 1200,200 L1200,0 L0,0 Z");
+      }
+    }
+  </style>
+  
+  <!-- 第一层波浪 -->
+  <path class="header-wave" 
+        d="M0,200 C300,160 600,240 900,200 C1050,180 1150,220 1200,200 L1200,0 L0,0 Z" 
+        fill="url(#header-gradient)" opacity="0.8"/>
+  
+  <!-- 第二层波浪 -->
+  <path class="header-wave2" 
+        d="M0,200 C150,140 450,280 600,200 C750,140 1050,280 1200,200 L1200,0 L0,0 Z" 
+        fill="url(#header-gradient2)" opacity="0.6"/>
+  
+  <!-- 装饰性星星 -->
+  <g opacity="0.8">
+    <circle cx="200" cy="60" r="2" fill="#fff">
+      <animate attributeName="opacity" values="0.8;1;0.8" dur="3s" repeatCount="indefinite"/>
+    </circle>
+    <circle cx="600" cy="80" r="1.5" fill="#fff">
+      <animate attributeName="opacity" values="0.8;1;0.8" dur="4s" repeatCount="indefinite"/>
+    </circle>
+    <circle cx="1000" cy="50" r="2.5" fill="#fff">
+      <animate attributeName="opacity" values="0.8;1;0.8" dur="2.5s" repeatCount="indefinite"/>
+    </circle>
+    <circle cx="400" cy="40" r="1" fill="#fff">
+      <animate attributeName="opacity" values="0.8;1;0.8" dur="3.5s" repeatCount="indefinite"/>
+    </circle>
+    <circle cx="800" cy="70" r="1.8" fill="#fff">
+      <animate attributeName="opacity" values="0.8;1;0.8" dur="2.8s" repeatCount="indefinite"/>
+    </circle>
+  </g>
+  
+  <!-- 主标题 -->
+  <text x="50%" y="35%" class="welcome-text" fill="url(#text-gradient)">
+    🌟 欢迎来到我的数字世界 🌟
+  </text>
+  
+  <!-- 副标题 -->
+  <text x="50%" y="55%" class="subtitle" fill="#ffffff">
+    一个充满创意与激情的编程之旅
+  </text>
 </svg>
         

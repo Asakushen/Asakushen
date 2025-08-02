@@ -1,91 +1,233 @@
 ![](assets/Bottom_up.svg)
 
-<!--   my-icons -->
-<p align="center">
-    <a href="https://github.com/Asakushen/Asakushen"><img src="https://img.shields.io/badge/status-updating-brightgreen.svg"></a>
-    <a href="https://github.com/Asakushen/Asakushen/graphs/contributors"><img src="https://img.shields.io/github/contributors/Asakushen/Asakushen?color=blue"></a>
-    <a href="https://github.com/Asakushen/Asakushen/stargazers"><img src="https://img.shields.io/github/stars/Asakushen/Asakushen.svg?logo=github"></a>
-    <a href="https://github.com/Asakushen/Asakushen/network/members"><img src="https://img.shields.io/github/forks/Asakushen/Asakushen.svg?color=blue&logo=github"></a>
-    <img src="https://visitor-badge.laobi.icu/badge?page_id=Asakushen.Asakushen" alt="visitors"/>   
-</p>
+<div align="center">
 
-<!--   my-header-img -->
-![](./src/header_.png)
-<a href="https://www.python.org/"><img src="https://upload.wikimedia.org/wikipedia/commons/c/c3/Python-logo-notext.svg" align="right" height="48" width="48" ></a>
+# 🌟 欢迎来到 Asakushen 的数字世界 🌟
 
+[![状态](https://img.shields.io/badge/状态-持续更新-brightgreen.svg?style=for-the-badge)](https://github.com/Asakushen/Asakushen)
+[![贡献者](https://img.shields.io/github/contributors/Asakushen/Asakushen?color=blue&style=for-the-badge)](https://github.com/Asakushen/Asakushen/graphs/contributors)
+[![星标](https://img.shields.io/github/stars/Asakushen/Asakushen.svg?logo=github&style=for-the-badge)](https://github.com/Asakushen/Asakushen/stargazers)
+[![分叉](https://img.shields.io/github/forks/Asakushen/Asakushen.svg?color=blue&logo=github&style=for-the-badge)](https://github.com/Asakushen/Asakushen/network/members)
+![访问者](https://visitor-badge.laobi.icu/badge?page_id=Asakushen.Asakushen&style=for-the-badge)
 
-<!--   my-ticker -->    
-[![Typing SVG](https://readme-typing-svg.herokuapp.com?color=%2336BCF7&center=true&vCenter=true&width=600&lines=Hi+there+👋,+I+am+Asakushen;+Welcome+to+My+Profile!;Over+3+years+of+programming+learning+experience;Always+learning+new+things+;College+students+majoring+in+computer+science+;)](https://git.io/typing-svg)
-
-
-<!--   my-kaggle     
-### My achievements on [kaggle](https://www.kaggle.com/andrej0marinchenko):
-
-![competition_light](https://road-to-kaggle-grandmaster.vercel.app/api/badges/andrej0marinchenko/competition/light)
-![dataset](https://road-to-kaggle-grandmaster.vercel.app/api/badges/andrej0marinchenko/dataset/light)
-![notebook](https://road-to-kaggle-grandmaster.vercel.app/api/badges/andrej0marinchenko/notebook/light)
-![discussion](https://road-to-kaggle-grandmaster.vercel.app/api/badges/andrej0marinchenko/discussion/light)
--->
-
-
-<!--   my-skils -->
-
-| Property                                        | Data                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                            |
-|-------------------------------------------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| **Language / IDE**                              | ![Python Badge](https://img.shields.io/badge/-Python-3776AB?style=flat&logo=Python&logoColor=white) ![Pycharm Badge](https://img.shields.io/badge/-Pycharm-3776AB?style=flat&logo=Pycharm&logoColor=white) ![Python Badge](https://img.shields.io/badge/-Django-3776AB?style=flat&logo=Django&logoColor=white)                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                       |
-| **CI / CD**                                     | [![Markdown Badge](https://img.shields.io/badge/-Markdown-2088FF?style=flat&logo=Markdown&logoColor=white)](https://github.com/Asakushen/Asakushen) [![Github Badge](https://img.shields.io/badge/-Github%20-2088FF?style=flat&logo=Github&logoColor=white)](https://github.com/Asakushen/Asakushen) [![Github Actions Badge](https://img.shields.io/badge/-Git%20-2088FF?style=flat&logo=Git&logoColor=white)](https://github.com/Asakushen/Asakushen)                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                       |
-| **Databases**                                   | <img alt="MySQL" src="https://camo.githubusercontent.com/e863bc79abf7a53150665ce9eb1a93f4fb6183af46bc3fb345ee5562736eb23c/68747470733a2f2f696d672e736869656c64732e696f2f62616467652f4d7953514c2d2532333030662e7376673f6c6f676f3d6d7973716c266c6f676f436f6c6f723d7768697465" data-canonical-src="https://img.shields.io/badge/MySQL-%2300f.svg?logo=mysql&amp;logoColor=white" style="max-width: 100%;"> <img src="https://camo.githubusercontent.com/c44ec7dbcddd4dea22204197ce11e45bea3ef03ff97e45294bf66ea793527706/68747470733a2f2f696d672e736869656c64732e696f2f62616467652f2d53514c2d626c61636b3f7374796c653d666c61742d737175617265266c6f676f3d706f737467726573716c266c6f676f436f6c6f723d626c7565" alt="SQL" data-canonical-src="https://img.shields.io/badge/-SQL-black?style=flat-square&amp;logo=postgresql&amp;logoColor=blue" style="max-width: 100%;">                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                               |
-| **OS**                                          | <a target="_blank" rel="noopener noreferrer" href="https://camo.githubusercontent.com/b44114213a5a462903bd69611bb6846f1dc41fe6f3230bd37c67c3d4eb65f08c/68747470733a2f2f696d672e736869656c64732e696f2f62616467652f2d57696e646f77732d626c61636b3f7374796c653d666c61742d737175617265266c6f676f3d77696e646f7773266c6f676f436f6c6f723d626c7565"><img src="https://camo.githubusercontent.com/b44114213a5a462903bd69611bb6846f1dc41fe6f3230bd37c67c3d4eb65f08c/68747470733a2f2f696d672e736869656c64732e696f2f62616467652f2d57696e646f77732d626c61636b3f7374796c653d666c61742d737175617265266c6f676f3d77696e646f7773266c6f676f436f6c6f723d626c7565" alt="Windows" data-canonical-src="https://img.shields.io/badge/-Windows-black?style=flat-square&amp;logo=windows&amp;logoColor=blue" style="max-width: 100%;"></a>                                                                                                                                                                                                                                                                         |
-<!--   GitHub stats graph -->
-### 📈 GitHub Activity Graph:
-<!-- [![Asakushen's github activity graph](https://github-readme-activity-graph.cyclic.app/graph?username=Asakushen&theme=github-compact)](https://github.com/Asakushen/github-readme-activity-graph) -->
-![Asakushen's github activity graph](https://raw.githubusercontent.com/Asakushen/Asakushen/output/github-contribution-grid-snake.svg)
-| .                                                                                                                                       | .                                                                                                                         |
-|-----------------------------------------------------------------------------------------------------------------------------------------|---------------------------------------------------------------------------------------------------------------------------|
-| ![Asakushen's github stats](https://github-readme-stats.vercel.app/api?username=Asakushen&show_icons=true&theme=radical&include_all_commits=true) | ![Quiec's github stats](https://github-readme-stats.vercel.app/api/top-langs/?username=Asakushen&theme=radical&layout=compact) |
-
-<img src="https://github-readme-streak-stats.herokuapp.com/?user=Asakushen"></img>
-
-<!--   profile-green-animate -->
-![](./profile-3d-contrib/profile-green-animate.svg)
-
-<!--   grid-snake -->
-![](https://github.com/Asakushen/Asakushen/blob/output/github-contribution-grid-snake.svg)
-
-<!--   skyline 
-<a href="https://skyline.github.com/Asakushen/2022"><img src="./assets/2022.gif" alt="" width="auto" height="auto" /></a>
--->
-
-
-
-
-#### Thanks for visiting :heart:
-
-<p align="center"> 
-<img src="https://profile-counter.glitch.me/Asakushen/count.svg">  
-
-
-
-### Profile Views
-counting of visitors to this page in this section started from June 12, 2022
-
-![](https://count.getloli.com/get/@Asakushen.github.readme)
-</br>
-
-[MIT](LICENSE)
-
-
-</p>
+</div>
 
 ---
-  *If you liked my profile, you can Star ⭐ the repo and if you want to use this template you can Fork it and can use.* 
----
-Would you ike to meet me?
 
-If you want to contribute to any of my repositories, feel free to submit PRs, issues and email me. Pick a slot if you'd like to meet me and chat about proposals and ideas - but make sure to describe the agenda
+<div align="center">
+  <img src="./src/header_.png" alt="个人头像" style="border-radius: 20px; box-shadow: 0 10px 30px rgba(0,0,0,0.3);">
+</div>
+
+<div align="center">
+  
+[![动态文字](https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=28&duration=3000&pause=1000&color=36BCF7&center=true&vCenter=true&width=800&height=100&lines=👋+你好，我是+Asakushen;🚀+欢迎来到我的个人主页!;💻+3年+编程学习经验;🎓+计算机科学专业在读;🌱+永远在学习新技术;✨+让我们一起创造美好的代码世界!)](https://git.io/typing-svg)
+
+</div>
+
+![浮动图标](./assets/floating-icons.svg)
 
 ---
-  *I use an automatic subscription control system. Thus, everyone who subscribes to me, I will subscribe to those and I will respond, and vice versa, I will remove all those who unsubscribe from me from among those who should be followed.* 
+
+## 🛠️ 技术栈与工具
+
+<div align="center">
+
+### 💻 编程语言 & 开发环境
+
+<div style="display: flex; flex-wrap: wrap; justify-content: center; gap: 10px; margin: 20px 0;">
+
+![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white&labelColor=3776AB)
+![C++](https://img.shields.io/badge/C++-00599C?style=for-the-badge&logo=cplusplus&logoColor=white&labelColor=00599C)
+![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black&labelColor=F7DF1E)
+![HTML5](https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white&labelColor=E34F26)
+![Django](https://img.shields.io/badge/Django-092E20?style=for-the-badge&logo=django&logoColor=white&labelColor=092E20)
+
+</div>
+
+### 🔧 开发工具
+
+<div style="display: flex; flex-wrap: wrap; justify-content: center; gap: 10px; margin: 20px 0;">
+
+![VS Code](https://img.shields.io/badge/VS_Code-007ACC?style=for-the-badge&logo=visual-studio-code&logoColor=white&labelColor=007ACC)
+![Visual Studio](https://img.shields.io/badge/Visual_Studio-5C2D91?style=for-the-badge&logo=visual-studio&logoColor=white&labelColor=5C2D91)
+![PyCharm](https://img.shields.io/badge/PyCharm-000000?style=for-the-badge&logo=pycharm&logoColor=white&labelColor=000000)
+
+</div>
+
+### 🚀 部署 & 版本控制
+
+<div style="display: flex; flex-wrap: wrap; justify-content: center; gap: 10px; margin: 20px 0;">
+
+![Git](https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white&labelColor=F05032)
+![GitHub](https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white&labelColor=181717)
+![Vercel](https://img.shields.io/badge/Vercel-000000?style=for-the-badge&logo=vercel&logoColor=white&labelColor=000000)
+![Cloudflare](https://img.shields.io/badge/Cloudflare-F38020?style=for-the-badge&logo=cloudflare&logoColor=white&labelColor=F38020)
+![Markdown](https://img.shields.io/badge/Markdown-000000?style=for-the-badge&logo=markdown&logoColor=white&labelColor=000000)
+
+</div>
+
+### 🗄️ 数据库
+
+<div style="display: flex; flex-wrap: wrap; justify-content: center; gap: 10px; margin: 20px 0;">
+
+![MySQL](https://img.shields.io/badge/MySQL-4479A1?style=for-the-badge&logo=mysql&logoColor=white&labelColor=4479A1)
+![SQLite](https://img.shields.io/badge/SQLite-003B57?style=for-the-badge&logo=sqlite&logoColor=white&labelColor=003B57)
+
+</div>
+
+### 🖥️ 操作系统
+
+<div style="display: flex; flex-wrap: wrap; justify-content: center; gap: 10px; margin: 20px 0;">
+
+![Windows](https://img.shields.io/badge/Windows-0078D6?style=for-the-badge&logo=windows&logoColor=white&labelColor=0078D6)
+![Ubuntu](https://img.shields.io/badge/Ubuntu-E95420?style=for-the-badge&logo=ubuntu&logoColor=white&labelColor=E95420)
+![Debian](https://img.shields.io/badge/Debian-A81D33?style=for-the-badge&logo=debian&logoColor=white&labelColor=A81D33)
+![Alpine Linux](https://img.shields.io/badge/Alpine_Linux-0D597F?style=for-the-badge&logo=alpine-linux&logoColor=white&labelColor=0D597F)
+
+</div>
+
+</div>
+
 ---
+
+## 📈 技能熟练度
+
+<div align="center">
+
+![技能进度条](./assets/skill-bars.svg)
+
+</div>
+
+![渐变分割线](./assets/gradient-divider.svg)
+
+---
+
+## 📊 GitHub 数据统计
+
+<div align="center">
+
+### 🔥 贡献热力图
+![贡献蛇形图](https://raw.githubusercontent.com/Asakushen/Asakushen/output/github-contribution-grid-snake.svg)
+
+### 📈 统计数据
+
+<div style="display: flex; justify-content: center; flex-wrap: wrap; gap: 20px; margin: 20px 0;">
+
+<img height="180em" src="https://github-readme-stats.vercel.app/api?username=Asakushen&show_icons=true&theme=tokyonight&include_all_commits=true&count_private=true&hide_border=true&bg_color=0d1117&title_color=58a6ff&text_color=c9d1d9&icon_color=58a6ff" />
+
+<img height="180em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=Asakushen&layout=compact&theme=tokyonight&hide_border=true&bg_color=0d1117&title_color=58a6ff&text_color=c9d1d9" />
+
+</div>
+
+### 🔥 连续贡献记录
+<img src="https://github-readme-streak-stats.herokuapp.com/?user=Asakushen&theme=tokyonight&hide_border=true&background=0d1117&stroke=58a6ff&ring=58a6ff&fire=ff6b6b&currStreakLabel=58a6ff" />
+
+</div>
+
+---
+
+## 🎯 项目展示
+
+<div align="center">
+
+### 📚 学习历程
+
+![学习时间线](./assets/timeline.svg)
+
+### 🌟 精选项目
+
+<div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); gap: 20px; margin: 20px 0;">
+
+<div style="background: linear-gradient(135deg, #667eea 0%, #764ba2 100%); padding: 20px; border-radius: 15px; color: white;">
+  <h4>🚀 个人主页项目</h4>
+  <p>一个功能丰富的GitHub个人主页，包含动态效果和统计图表</p>
+  <div>
+    <img src="https://img.shields.io/badge/Python-3776AB?style=flat&logo=python&logoColor=white" />
+    <img src="https://img.shields.io/badge/HTML-E34F26?style=flat&logo=html5&logoColor=white" />
+  </div>
+</div>
+
+<div style="background: linear-gradient(135deg, #f093fb 0%, #f5576c 100%); padding: 20px; border-radius: 15px; color: white;">
+  <h4>💻 学习项目集合</h4>
+  <p>记录编程学习过程中的各种练习和小项目</p>
+  <div>
+    <img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=flat&logo=javascript&logoColor=black" />
+    <img src="https://img.shields.io/badge/C++-00599C?style=flat&logo=cplusplus&logoColor=white" />
+  </div>
+</div>
+
+</div>
+
+</div>
+
+---
+
+## 🎨 3D 贡献图
+
+<div align="center">
+
+![3D贡献图](./profile-3d-contrib/profile-green-animate.svg)
+
+</div>
+
+---
+
+## 📞 联系方式
+
+<div align="center">
+
+### 🤝 让我们连接吧！
+
+<div style="display: flex; justify-content: center; gap: 20px; margin: 20px 0;">
+
+[![Gmail](https://img.shields.io/badge/Gmail-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:your-email@gmail.com)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://linkedin.com/in/yourprofile)
+[![Twitter](https://img.shields.io/badge/Twitter-1DA1F2?style=for-the-badge&logo=twitter&logoColor=white)](https://twitter.com/yourhandle)
+
+</div>
+
+### 💬 想要合作？
+
+如果你想为我的任何仓库做贡献，欢迎提交 PR、Issues 或发邮件给我。如果你想和我聊聊想法和建议，可以预约时间 - 但请确保描述清楚议程。
+
+</div>
+
+---
+
+## 📈 访问统计
+
+<div align="center">
+
+### 👀 页面浏览量
+
+<img src="https://profile-counter.glitch.me/Asakushen/count.svg" alt="访问计数" />
+
+<p><em>此页面的访问统计从 2022年6月12日 开始计算</em></p>
+
+![访问统计](https://count.getloli.com/get/@Asakushen.github.readme)
+
+</div>
+
+---
+
+<div align="center">
+
+### 💝 感谢访问
+
+<img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&height=100&section=footer" />
+
+**如果你喜欢我的个人主页，可以给仓库点个 ⭐ Star！如果你想使用这个模板，可以 Fork 后自由使用。**
+
+---
+
+*我使用自动订阅控制系统。因此，所有关注我的人，我都会回关，反之亦然，我会取消关注那些取消关注我的人。*
+
+---
+
+<div style="background: linear-gradient(90deg, #ff6b6b, #4ecdc4, #45b7d1, #96ceb4, #feca57); height: 3px; border-radius: 3px;"></div>
+
+**📄 [MIT许可证](LICENSE)**
+
+</div>
 
 ![](assets/Bottom_down.svg)
