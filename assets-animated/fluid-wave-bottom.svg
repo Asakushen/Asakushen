@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 120" preserveAspectRatio="none" style="display:block;width:100%;height:100px;overflow:visible">
+  <defs>
+    <linearGradient id="wb1" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#5e6ad2">
+        <animate attributeName="stop-color" values="#5e6ad2;#a78bfa;#5e6ad2" dur="10s" repeatCount="indefinite"/>
+      </stop>
+      <stop offset="50%" stop-color="#7170ff">
+        <animate attributeName="stop-color" values="#7170ff;#5e6ad2;#7170ff" dur="10s" repeatCount="indefinite"/>
+      </stop>
+      <stop offset="100%" stop-color="#a78bfa">
+        <animate attributeName="stop-color" values="#a78bfa;#7170ff;#a78bfa" dur="10s" repeatCount="indefinite"/>
+      </stop>
+    </linearGradient>
+  </defs>
+  <!-- Inverted wave layers -->
+  <path fill="url(#wb1)" opacity="0.08">
+    <animate attributeName="d" dur="14s" repeatCount="indefinite" values="
+      M0,80 C360,40 720,100 1080,60 C1260,40 1440,70 1440,80 L1440,120 L0,120 Z;
+      M0,60 C240,100 520,30 800,80 C1050,120 1300,50 1440,70 L1440,120 L0,120 Z;
+      M0,80 C360,40 720,100 1080,60 C1260,40 1440,70 1440,80 L1440,120 L0,120 Z
+    "/>
+  </path>
+  <path fill="url(#wb1)" opacity="0.14">
+    <animate attributeName="d" dur="10s" repeatCount="indefinite" values="
+      M0,60 C280,90 560,40 840,70 C1120,100 1360,45 1440,60 L1440,120 L0,120 Z;
+      M0,80 C320,30 640,90 960,50 C1180,30 1380,80 1440,70 L1440,120 L0,120 Z;
+      M0,60 C280,90 560,40 840,70 C1120,100 1360,45 1440,60 L1440,120 L0,120 Z
+    "/>
+  </path>
+  <path fill="url(#wb1)" opacity="0.22">
+    <animate attributeName="d" dur="7s" repeatCount="indefinite" values="
+      M0,40 C200,70 500,20 800,55 C1100,80 1350,35 1440,50 L1440,120 L0,120 Z;
+      M0,50 C300,25 600,65 900,40 C1150,20 1350,55 1440,45 L1440,120 L0,120 Z;
+      M0,40 C200,70 500,20 800,55 C1100,80 1350,35 1440,50 L1440,120 L0,120 Z
+    "/>
+  </path>
+</svg>

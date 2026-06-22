@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 200" style="display:block;width:100%;height:auto;overflow:visible">
+  <defs>
+    <radialGradient id="molb" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#7170ff" stop-opacity="0.3">
+        <animate attributeName="stop-color" values="#7170ff;#a78bfa;#7185ff;#10b981;#7170ff" dur="8s" repeatCount="indefinite"/>
+        <animate attributeName="stop-opacity" values="0.3;0.5;0.2;0.4;0.3" dur="8s" repeatCount="indefinite"/>
+      </stop>
+      <stop offset="100%" stop-color="#5e6ad2" stop-opacity="0">
+        <animate attributeName="stop-color" values="#5e6ad2;#a78bfa;#5e6ad2;#10b981;#5e6ad2" dur="8s" repeatCount="indefinite"/>
+      </stop>
+    </radialGradient>
+    <filter id="molb-blur">
+      <feGaussianBlur stdDeviation="15">
+        <animate attributeName="stdDeviation" values="12;20;15;18;12" dur="6s" repeatCount="indefinite"/>
+      </feGaussianBlur>
+    </filter>
+  </defs>
+  <g filter="url(#molb-blur)">
+    <path fill="url(#molb)">
+      <animate attributeName="d" dur="10s" repeatCount="indefinite" values="
+        M100,20 C140,10 180,50 185,90 C190,130 160,170 120,185 C80,200 30,175 15,135 C0,95 20,45 60,25 C80,16 90,30 100,20 Z;
+        M100,30 C150,15 185,60 180,100 C175,145 145,175 105,190 C60,205 20,170 10,130 C0,85 25,40 65,22 C85,13 95,25 100,30 Z;
+        M100,20 C140,10 180,50 185,90 C190,130 160,170 120,185 C80,200 30,175 15,135 C0,95 20,45 60,25 C80,16 90,30 100,20 Z
+      "/>
+    </path>
+  </g>
+</svg>
