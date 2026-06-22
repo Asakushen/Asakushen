@@ -1,45 +1,37 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320" preserveAspectRatio="none" style="display:block;width:100%;height:120px;overflow:visible">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320" preserveAspectRatio="none" style="display:block;width:100%;height:140px">
   <defs>
-    <linearGradient id="wg1" x1="0%" y1="0%" x2="100%" y2="0%">
+    <linearGradient id="w1a" x1="0%" y1="0%" x2="100%" y2="0%">
       <stop offset="0%" stop-color="#5e6ad2">
-        <animate attributeName="stop-color" values="#5e6ad2;#7170ff;#5e6ad2" dur="8s" repeatCount="indefinite"/>
+        <animate attributeName="stop-color" values="#5e6ad2;#7170ff;#a78bfa;#5e6ad2" dur="8s" repeatCount="indefinite"/>
       </stop>
       <stop offset="50%" stop-color="#7170ff">
-        <animate attributeName="stop-color" values="#7170ff;#5e6ad2;#7170ff" dur="8s" repeatCount="indefinite"/>
+        <animate attributeName="stop-color" values="#7170ff;#a78bfa;#5e6ad2;#7170ff" dur="8s" repeatCount="indefinite"/>
       </stop>
       <stop offset="100%" stop-color="#a78bfa">
-        <animate attributeName="stop-color" values="#a78bfa;#7180ff;#a78bfa" dur="8s" repeatCount="indefinite"/>
+        <animate attributeName="stop-color" values="#a78bfa;#5e6ad2;#7170ff;#a78bfa" dur="8s" repeatCount="indefinite"/>
       </stop>
     </linearGradient>
-    <filter id="blur1">
-      <feGaussianBlur stdDeviation="3">
-        <animate attributeName="stdDeviation" values="3;6;3" dur="7s" repeatCount="indefinite"/>
-      </feGaussianBlur>
-    </filter>
+    <filter id="w1b"><feGaussianBlur stdDeviation="4">
+      <animate attributeName="stdDeviation" values="3;7;4;5;3" dur="6s" repeatCount="indefinite"/>
+    </feGaussianBlur></filter>
   </defs>
-  <!-- Layer 1 - slow -->
-  <path fill="url(#wg1)" opacity="0.15" filter="url(#blur1)">
-    <animate attributeName="d" dur="12s" repeatCount="indefinite" values="
-      M0,160 C180,100 360,220 540,160 C720,100 900,200 1080,140 C1260,80 1440,180 1440,160 L1440,0 L0,0 Z;
-      M0,120 C200,180 400,80 600,140 C800,200 1000,100 1200,160 C1350,200 1440,120 1440,120 L1440,0 L0,0 Z;
-      M0,160 C180,100 360,220 540,160 C720,100 900,200 1080,140 C1260,80 1440,180 1440,160 L1440,0 L0,0 Z
-    "/>
+  <path fill="url(#w1a)" opacity="0.12" filter="url(#w1b)">
+    <animate attributeName="d" dur="11s" repeatCount="indefinite" values="
+      M0,180 C200,120 400,240 600,170 C800,100 1000,220 1200,150 C1350,100 1440,180 1440,160 L1440,0 L0,0 Z;
+      M0,140 C180,200 380,100 580,160 C780,220 980,110 1180,170 C1340,210 1440,130 1440,140 L1440,0 L0,0 Z;
+      M0,180 C200,120 400,240 600,170 C800,100 1000,220 1200,150 C1350,100 1440,180 1440,160 L1440,0 L0,0 Z"/>
   </path>
-  <!-- Layer 2 - medium -->
-  <path fill="url(#wg1)" opacity="0.1">
-    <animate attributeName="d" dur="9s" repeatCount="indefinite" values="
-      M0,200 C240,140 480,240 720,180 C960,120 1200,220 1440,180 L1440,0 L0,0 Z;
-      M0,180 C200,240 500,140 700,200 C900,260 1100,160 1440,200 L1440,0 L0,0 Z;
-      M0,200 C240,140 480,240 720,180 C960,120 1200,220 1440,180 L1440,0 L0,0 Z
-    "/>
+  <path fill="url(#w1a)" opacity="0.08">
+    <animate attributeName="d" dur="8s" repeatCount="indefinite" values="
+      M0,220 C300,160 600,260 900,190 C1100,140 1300,230 1440,190 L1440,0 L0,0 Z;
+      M0,200 C250,260 550,140 800,200 C1050,260 1250,150 1440,200 L1440,0 L0,0 Z;
+      M0,220 C300,160 600,260 900,190 C1100,140 1300,230 1440,190 L1440,0 L0,0 Z"/>
   </path>
-  <!-- Layer 3 - fast accent -->
-  <path fill="#7170ff" opacity="0.06">
+  <path fill="#7170ff" opacity="0.05">
     <animate attributeName="d" dur="6s" repeatCount="indefinite" values="
-      M0,220 C360,160 720,260 1080,200 C1260,170 1440,210 1440,200 L1440,0 L0,0 Z;
-      M0,200 C300,260 600,160 900,210 C1150,250 1350,190 1440,200 L1440,0 L0,0 Z;
-      M0,220 C360,160 720,260 1080,200 C1260,170 1440,210 1440,200 L1440,0 L0,0 Z
-    "/>
+      M0,250 C400,190 800,280 1200,220 C1350,200 1440,240 1440,230 L1440,0 L0,0 Z;
+      M0,240 C350,280 700,190 1050,240 C1250,270 1400,220 1440,230 L1440,0 L0,0 Z;
+      M0,250 C400,190 800,280 1200,220 C1350,200 1440,240 1440,230 L1440,0 L0,0 Z"/>
   </path>
 </svg>
