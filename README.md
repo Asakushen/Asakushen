@@ -35,6 +35,20 @@
       <p><a href="https://ip.chillg.de">打开雷达 →</a></p>
     </td>
   </tr>
+  <tr>
+    <td width="50%" valign="top">
+      <a href="https://github.com/Asakushen/chill-jade"><img src="https://img.shields.io/badge/03-浅草玉简-9B7EDE?style=flat-square&labelColor=251c34" alt="浅草玉简" /></a>
+      <h3>浅草玉简 · Chill Jade</h3>
+      <p>一个重视隐私与自托管的个人书签花园：把散落的链接炼化为可回看、可生长的知识园地。</p>
+      <p><a href="https://github.com/Asakushen/chill-jade">查看源码 →</a></p>
+    </td>
+    <td width="50%" valign="top">
+      <a href="http://img.bxxb.de/"><img src="https://img.shields.io/badge/04-数字方舟图床-F1A86D?style=flat-square&labelColor=302116" alt="数字方舟图床" /></a>
+      <h3>数字方舟图床</h3>
+      <p>轻量、直接的图片上传入口，支持智能压缩；为浅草物语的图片托管与日常分享准备。</p>
+      <p><a href="http://img.bxxb.de/">上传图片 →</a></p>
+    </td>
+  </tr>
 </table>
 
 ## 我的兴趣雷达 🧭
