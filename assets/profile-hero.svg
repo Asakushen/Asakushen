@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 360" role="img" aria-labelledby="title desc">
+  <title id="title">Asakushen — build calmly, ship thoughtfully</title>
+  <desc id="desc">An animated dark green and indigo field with the words Asakushen and a short personal manifesto.</desc>
+  <defs>
+    <linearGradient id="field" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#0b1110"/><stop offset=".55" stop-color="#111a18"/><stop offset="1" stop-color="#111321"/></linearGradient>
+    <linearGradient id="line" x1="0" y1="0" x2="1" y2="0"><stop offset="0" stop-color="#56755f" stop-opacity="0"/><stop offset=".32" stop-color="#a5d2b3"/><stop offset=".68" stop-color="#94a3ff"/><stop offset="1" stop-color="#56755f" stop-opacity="0"/></linearGradient>
+    <filter id="blur"><feGaussianBlur stdDeviation="32"/></filter>
+    <pattern id="grid" width="32" height="32" patternUnits="userSpaceOnUse"><path d="M 32 0 L 0 0 0 32" fill="none" stroke="#d8f2de" stroke-opacity=".055" stroke-width="1"/></pattern>
+  </defs>
+  <rect width="1200" height="360" rx="18" fill="url(#field)"/><rect width="1200" height="360" rx="18" fill="url(#grid)"/>
+  <g filter="url(#blur)" opacity=".52"><circle cx="930" cy="70" r="110" fill="#56755f"><animate attributeName="cx" values="930;980;930" dur="12s" repeatCount="indefinite"/><animate attributeName="cy" values="70;105;70" dur="12s" repeatCount="indefinite"/></circle><circle cx="1070" cy="265" r="135" fill="#5e6ad2" opacity=".58"><animate attributeName="cx" values="1070;1030;1070" dur="14s" repeatCount="indefinite"/><animate attributeName="cy" values="265;230;265" dur="14s" repeatCount="indefinite"/></circle></g>
+  <path d="M0 280 C165 220 290 338 488 278 S824 204 1200 292" fill="none" stroke="#d8f2de" stroke-opacity=".13" stroke-width="1"/><path d="M0 286 C165 226 290 344 488 284 S824 210 1200 298" fill="none" stroke="url(#line)" stroke-width="2"><animate attributeName="opacity" values=".42;1;.42" dur="5s" repeatCount="indefinite"/></path>
+  <g fill="#d8f2de"><circle cx="812" cy="102" r="2" opacity=".55"><animate attributeName="opacity" values=".15;.8;.15" dur="4s" repeatCount="indefinite"/></circle><circle cx="1110" cy="132" r="2" opacity=".4"><animate attributeName="opacity" values=".7;.12;.7" dur="6s" repeatCount="indefinite"/></circle><circle cx="870" cy="248" r="1.5" opacity=".55"><animate attributeName="opacity" values=".1;.75;.1" dur="5s" repeatCount="indefinite"/></circle></g>
+  <g font-family="ui-sans-serif, system-ui, -apple-system, Segoe UI, sans-serif"><text x="74" y="101" fill="#a5d2b3" font-size="15" font-weight="600" letter-spacing="4">ASAKUSHEN / DIGITAL CRAFT</text><text x="72" y="184" fill="#f3faf4" font-size="72" font-weight="700" letter-spacing="-2">Asakushen</text><text x="76" y="229" fill="#b4c1ba" font-size="23" font-weight="400">Build calmly. Ship thoughtfully.</text><text x="76" y="260" fill="#809087" font-size="16">Open-source systems · Cloudflare · self-hosted tools · AI workflows</text></g>
+  <rect x="74" y="300" width="90" height="3" rx="1.5" fill="#a5d2b3"/><rect x="174" y="300" width="42" height="3" rx="1.5" fill="#94a3ff" opacity=".78"/>
+</svg>
