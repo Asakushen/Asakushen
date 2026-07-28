@@ -18,31 +18,6 @@
 - Maintaining **[Monolith](https://github.com/Asakushen/Monolith)** — an edge-native blog stack with Hono and React.
 - Exploring reliable AI-assisted workflows, self-hosted services, and the small UX choices that make tools feel calm.
 
-## Selected work
-
-<table>
-  <tr>
-    <td width="50%" valign="top">
-      <h3><a href="https://github.com/Asakushen/chill-jade">浅草玉简 · Chill Jade</a></h3>
-      <p>A privacy-minded, self-hosted bookmark garden. Cloudflare Workers, Hono, and D1.</p>
-    </td>
-    <td width="50%" valign="top">
-      <h3><a href="https://github.com/Asakushen/Monolith">Monolith</a></h3>
-      <p>An edge-native publishing system built around a fast, focused writing experience.</p>
-    </td>
-  </tr>
-  <tr>
-    <td width="50%" valign="top">
-      <h3><a href="https://github.com/Asakushen/kuma-mieru">Kuma Mieru</a></h3>
-      <p>A clean monitoring dashboard for Uptime Kuma, built with Next.js and TypeScript.</p>
-    </td>
-    <td width="50%" valign="top">
-      <h3><a href="https://github.com/Asakushen/RSSHub">RSSHub</a></h3>
-      <p>Keeping the open web subscribable — contribution and self-hosting work around RSS.</p>
-    </td>
-  </tr>
-</table>
-
 ## Toolbox
 
 `TypeScript` · `Python` · `React` · `Hono` · `Cloudflare Workers` · `D1` · `Docker` · `Linux` · `GitHub Actions`
